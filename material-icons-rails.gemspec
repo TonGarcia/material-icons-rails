@@ -12,10 +12,10 @@ Gem::Specification.new do |gem|
   gem.name          = "material-icons-rails"
   gem.require_paths = ["lib"]
   gem.version       = MaterialIcons::Rails::VERSION
-  
-  gem.add_dependency "railties", ">= 3.2", "< 5.0"
-  
+
+  gem.add_dependency "railties", "~> 6.1.4"
+
   gem.add_development_dependency "sass-rails"
-  gem.add_development_dependency "bundler", "~> 1.10"
-  gem.add_development_dependency "rake", "~> 10.0"
+  gem.add_development_dependency "bundler", "~> 2.2.6"
+  gem.add_development_dependency "rake", "~> 13.0.6"
 end
