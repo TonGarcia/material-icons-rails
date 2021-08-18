@@ -16,6 +16,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency "railties", "~> 6.1.4"
 
   gem.add_development_dependency "sass-rails"
-  gem.add_development_dependency "bundler", "~> 2.2.6"
+  gem.add_development_dependency "bundler", "~> 2.2.26"
   gem.add_development_dependency "rake", "~> 13.0.6"
 end
